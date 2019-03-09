@@ -6,5 +6,5 @@ open System.IO
 [<EntryPoint>]
 let main argv =
     printfn "Paperspace TEST"
-    File.WriteAllLines("artifacts/file.txt", [|"hello"; "world"; "paperspace"|])
+    File.WriteAllLines("/artifacts/file.txt", [|"hello"; "world"; "paperspace"|])
     0 // return an integer exit code
